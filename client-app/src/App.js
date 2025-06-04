@@ -24,7 +24,7 @@ function App() {
             <Routes>
               <Route path='auth' element={<AuthorizatingPage/>}/>
               <Route path="/home" element={<ProtectedRoute element={Home}/>} />
-              <Route path="/" element={<Navigate to="/auth" replace />} />
+              <Route path="/" element={<Navigate to="/home" replace />} />
               <Route path="/novella/:id" element={<ProtectedRoute element={TitlePage}/>} />
               <Route path="/novella/chapter/:chapterId" element={<ProtectedRoute element={ChapterPage}/>} />
               <Route path='/catalog' element={<ProtectedRoute element={CatalogPage}/>}/>
