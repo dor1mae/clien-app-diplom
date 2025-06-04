@@ -1,0 +1,116 @@
+.profile-window{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 100%;
+    right: 25vw;
+    background: var(--valuable-container-color);
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    z-index: 100;
+    min-width: 180px;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5); /* полупрозрачный чёрный */
+    z-index: 99; /* ниже окна, но выше остального */
+  }
+
+.profile-window-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.profile-window-header-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--non-action-title-color);
+}
+
+.profile-avatar
+{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.profile-button
+{
+    margin-left: 8px;
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile-link
+{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: var(--accent-light-action-title-color);
+    padding: 5px 0px 5px 0px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-mini-link
+{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--accent-light-action-title-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+    gap: 2px;
+}
+
+.profile-icon
+{
+    display: flex;
+    stroke-width: 1.5;
+    width: 20px;
+    height: 20px;
+    color: inherit;
+    stroke: currentColor;
+    align-self: center;
+    justify-content: center;
+}
+
+.profile-link:hover
+{
+    color: var(--hover-action-elem-color);
+}
+
+.profile-mini-link:hover
+{
+    color: var(--hover-action-elem-color);
+}
+

@@ -1,0 +1,24 @@
+.theme-icon{
+    fill: currentColor;
+    background: none;
+    color: inherit;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    display: flex;
+}
+
+.theme-button
+{
+    background: none;
+    border: none;
+    justify-content: stretch;
+    display: flex;
+    align-items: stretch;
+    cursor: pointer;
+    color: var(--accent-light-action-title-color);
+}
+
+.theme-button:hover
+{
+    color: var(--hover-action-elem-color)
+}

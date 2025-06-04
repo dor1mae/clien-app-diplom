@@ -1,0 +1,124 @@
+.auth-center-setter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.window-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.window
+{
+    display: inline;
+    background: var(--valuable-container-color);
+    width: 380px;
+    border-radius: 6px;
+}
+
+
+.window-header
+{
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    color: var(--non-action-title-color);
+    display: flex;
+    font-size: 2em;
+    background: var(--site-fill-color);
+    font-weight: 600;
+}
+
+.input-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin:10px 10px 10px 10px;
+}
+
+.password-auth-box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    gap: 10px;
+}
+
+.input-header
+{
+    width: 90%;
+    text-align:left;
+    font-size: 1.2em;
+    color: var(--non-action-title-color);
+    font-weight: 500;
+}
+
+.input
+{
+    display: flex;
+
+    height: 15px;
+    border-radius: 6px;
+    background: var(--site-fill-color);
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+.input:hover
+{
+    border-color: var(--accent-light-action-title-color);
+}
+
+.href-section
+{
+    margin: 10px 0px 10px 0px;
+    width: 360px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.href-button
+{
+    background: none;
+    color: var(--accent-light-action-title-color);
+    border: none;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+.href-button:hover
+{
+    color: var(--non-action-title-color);
+}
+
+.auth-button
+{
+    background: var(--button-color);
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    width: 360px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--accent-light-action-title-color);
+}
+
+.auth-button:hover
+{
+    background: var(--button-hover-color);
+    color: var(--non-action-title-color);
+}

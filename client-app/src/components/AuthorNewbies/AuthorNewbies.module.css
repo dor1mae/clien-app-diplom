@@ -1,0 +1,59 @@
+.author-newbies-block {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  background: var(--valuable-container-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px;
+  width: 40%;
+}
+
+.box-shadow
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.author-newbies-title {
+  color: var(--non-action-title-color);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.author-newbies-name:hover {
+  color: var(--non-action-title-color);
+  text-decoration: underline;
+}
+
+.author-newbies-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.author-newbies-number {
+  color: var(--non-action-title-color);
+  font-size: 2rem;
+  width: 40px;
+  text-align: center;
+}
+
+.author-newbies-avatar {
+  background: var(--null-img-color);
+  min-width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.author-newbies-name {
+  color: var(--accent-dark-action-title-color);
+  font-weight: bold;
+  display: flex;
+}
+

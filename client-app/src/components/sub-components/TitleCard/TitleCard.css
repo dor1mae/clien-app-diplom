@@ -1,0 +1,10 @@
+.title-card-block
+{
+    width: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background: none;
+}

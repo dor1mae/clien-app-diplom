@@ -1,0 +1,19 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 35px;
+    min-height: 35px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    stroke-width: 1px;
+    stroke: currentColor;
+}
+
+.icon-color:hover{
+    color: #e05a43;
+}
+
+.icon-color{
+    color: #7cd97c;
+}

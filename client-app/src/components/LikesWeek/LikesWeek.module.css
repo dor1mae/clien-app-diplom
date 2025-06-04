@@ -1,0 +1,67 @@
+.likes-week-block {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  background: var(--valuable-container-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px;
+  width: 40%;
+}
+
+.likes-week-box-shadow
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.likes-week-title {
+  color: var(--non-action-title-color);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.likes-week-row {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.likes-week-number {
+  color: var(--non-action-title-color);
+  font-size: 2rem;
+  width: 40px;
+  text-align: center;
+}
+
+.likes-week-avatar {
+  background: var(null-img-color);
+  min-width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.likes-week-novel-title {
+  color: var(--accent-dark-action-title-color);
+  font-weight: bold;
+  align-self: flex-start;
+    justify-self: start;
+}
+
+.likes-week-novel-title:hover {
+  color: var(--non-action-title-color);
+  text-decoration: underline;
+}
+
+.likes-week-novel-author,
+.likes-week-novel-genres {
+  color: var(--non-action-title-color);
+  font-size: 0.95rem;
+  align-self: flex-start;
+    justify-self: start;
+}

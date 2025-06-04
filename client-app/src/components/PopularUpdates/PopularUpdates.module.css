@@ -1,0 +1,58 @@
+.popular-updates-box {
+  background: var(--valuable-container-color);
+  border-radius: 8px;
+  padding: 10px 0 20px 0;
+  margin: 0px 25px 0px 25px;
+  overflow: hidden;
+  display: flex;
+  flex-grow: 1;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.popular-updates-scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  overflow-x: auto;
+  padding: 0 16px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color) var(--valuable-container-color);
+}
+
+.popular-updates-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.popular-updates-scroll::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+  border-radius: 4px;
+}
+
+.popular-updates-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+  max-width: 160px;
+}
+
+.popular-updates-cover {
+  background: var(--null-img-color);
+  width: 140px;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.popular-updates-novel-title {
+  color: var(--accent-dark-action-title-color);
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2px;
+  width: 100%;
+  word-break: break-word;
+} 
+
+.popular-updates-novel-title:hover {
+  color: var(--non-action-title-color);
+  text-decoration: underline;
+}
